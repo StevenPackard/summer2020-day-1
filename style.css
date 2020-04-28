@@ -1,10 +1,40 @@
 h1, h2, h3 {
-  color: cornflowerblue;
+  color: ghostwhite;
   text-shadow: 1px 1px black;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 250%;
 }
 
-ul li{
-color: yellow
+li{
+  list-style: none;
+  color: black;
+  list-style-position: inside;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  height: 250px;
+  width: 200px;
+}
+
+.small-text{
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.small-picture {
+  height: 200px;
+  width: 140px;
+}
+
+.side-by-side{
+  display: flex;
+  justify-content: center;
 }
 
 .fancy {
@@ -14,5 +44,5 @@ color: yellow
 }
 
 body {
-  background-color: limegreen;
+  background-color: #809db1;
 }
